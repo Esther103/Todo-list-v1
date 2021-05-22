@@ -1,13 +1,64 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+#header{
+    background-color: rgb(27, 19, 3);
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+    border-style: groove;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+h1{
+    color: rgb(3, 0, 8);
+    margin:auto;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+     width: 350px;
+     font-size: 25px;
+     margin-top: 20px;
+     border:0px
+     
+}
 
-*/
+
+
+li{
+    width: 392px;
+    font-size: 20px;
+    
+}
+
+
+#addtodo{
+    color:green
+}
+
+button{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#main{
+    background-color: 	rgb(253, 246, 247);
+    width: 500px;
+    margin:auto;
+    border-style: groove;
+    padding-bottom: 20px;
+}
+
+#delete{
+    color:red;
+    float: right;
+    margin-top: 7px;
+}
+
+#counter{
+    font-size: 12px;
+    height: 40px;
+    margin: auto;
+}
+
+i{
+    font-size: 5px}
